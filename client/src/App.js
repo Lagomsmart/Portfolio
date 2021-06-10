@@ -22,8 +22,21 @@ import { Route, Switch } from react - router - dom;
 
         </Navbar>
 
+          <section className="AboutMe">
+            <div>
+              <img/>
+            </div>
+          </section>
 
 
+          <section className="AboutMe">
+
+          </section>
+
+
+          <section className="AboutMe">
+
+          </section>
 
 
 
