@@ -1,5 +1,8 @@
 import './App.css';
-import { Route, Switch } from react - router - dom;
+import { Route, Switch } from 'react-router-dom';
+// import Navbar from 'react-bootstrap/Navbar';
+// import Nav from 'react-bootstrap/Nav'
+import { useState } from 'react'
 
 
   function App() {
@@ -18,24 +21,46 @@ import { Route, Switch } from react - router - dom;
     return (
       <div className="App">
 
-        <Navbar>
 
-        </Navbar>
+        <section className="header">
 
-          <section className="AboutMe">
+          </section>
+
+          <section className="aboutMe">
             <div>
-              <img/>
+              <img/>picture
             </div>
+            <button className="resumeBtn">See my resume</button>
           </section>
 
 
-          <section className="AboutMe">
+          <section className="projects">
+            <div>
+
+              <div className="devLane">
+                <h2>Dev Lane</h2>
+
+              </div>
+
+              <div className="">
+                <h2></h2>
+
+              </div>
+
+            </div>
+
+            <button className=""></button>
 
           </section>
 
 
-          <section className="AboutMe">
-
+          <section className="contact">
+           <p>
+             Jesperbennett@protonmail.com<br/><br/>
+             text texte texte txt xt e txetxet xxtex<br/><br/>
+             text texte texte txt xt e txetxet xxtex<br/><br/>
+             text texte texte txt xt e txetxet xxtex<br/><br/>
+           </p>
           </section>
 
 
